@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>landing page</title>
+</head>
+
+<body>
+
+    <section class="first-section" id="home">
+        <div class="first">
+            <nav>
+                <h3 class="fast-bite">FAST-BITE</h3>
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#menu">menu</a></li>
+                    <li><a href="#about-us">about us</a></li>
+                    <li><a href="tel:91-9876543421" class="call-us">call us</a></a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <span id="element1"></span>
+            </div>
+            <div>
+                <span id="element2"></span>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="second-section" id="menu">
+        <h3 class="fav-dishes">Our Favourite Dishes</h3>
+
+        <ul class="dishes">
+            <li><img src="pizza.jpeg"><h3 class="dish-names">Margherita Pizza ₹149</h3></li>
+            <li><img src="burger.jpeg"><h3 class="dish-names">Classical Cheese Burger ₹49</h3></li>
+            <li><img src="sushi.jpeg"><h3 class="dish-names">Sushi Platter ₹100</h3></li>
+        </ul>
+    </section>
+
+    <section class="third-section" id="about-us">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-content">
+            <p>
+                At FastBite, we're passionate about delivering delicious food straight to your door. Established in 2024, our mission is to bring the best local and international cuisines to your table quickly and conveniently. We work with top chefs and local restaurants to offer a diverse menu that caters to every taste.
+            </p>
+            <p>
+                Our commitment to quality and customer satisfaction is at the heart of everything we do. From the moment you place your order, we ensure that your food is prepared fresh and delivered on time. Our user-friendly app makes ordering simple, and our dedicated delivery team ensures that your meal arrives hot and ready to enjoy.
+            </p>
+            <p>
+                Whether you're craving a quick bite or a full meal, FastBite is here to make dining easy and enjoyable. Join us in experiencing the future of food delivery!
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 FastBite. All rights reserved.</p>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element1', {
+            strings: ['<h1 class="middle-title">Delicious Food, Delivered to You</h1>'],
+            typeSpeed: 70,
+        });
+        var typed=new Typed('#element2',{
+            strings:['<h1 class="middle-title">call us:- +91-9876543421</h1>'],
+            typeSpeed:70,
+        })
+
+    </script>
+</body>
+
+</html>
